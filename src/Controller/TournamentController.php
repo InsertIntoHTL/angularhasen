@@ -16,7 +16,10 @@ class TournamentController extends AbstractController
     public function index()
     {
         $repository = $this->getDoctrine()->getRepository(TournamentEntry1::class);
-        $tournamentEntries = $products = $repository->findAll();
+        $tournamentEntries = $products = $repository->findBy(
+            array(),
+            array('traveldistance' => 'DESC')
+        );
 
         return $this->render('tournament/tournament.html.twig.html', [
             'tournamententries' => $tournamentEntries,
