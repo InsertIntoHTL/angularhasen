@@ -1,3 +1,5 @@
+<a href="/form">Create New</a>
+
 <table>
     <tr>
         <th>ID</th>
@@ -19,6 +21,7 @@
         <td>{{ entry.flightduration }}</td>
         <td>{{ entry.traveldistance }}</td>
         <td>{{ entry.date }}</td>
+        <td><a href="/remove/{{ entry.id }}">Remove</a></td>
     </tr>
     {% endfor %}
 </table>

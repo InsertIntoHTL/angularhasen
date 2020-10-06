@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bd4515a-40f4-471c-a5bb-edbea005aa95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/TournamentEntryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/FormController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/form/Type/TournamentType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/form/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/TournamentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TournamentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tournament/tournament.html.twig.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tournament/tournament.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tournament/tournament.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tournament/tournament.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +154,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\schule\WEBT\angularhasen\src\form\Type" />
       <recent name="C:\xampp\htdocs\schule\WEBT\angularhasen\templates\tournament" />
     </key>
   </component>
@@ -168,7 +170,7 @@
       <workItem from="1600182471589" duration="1762000" />
       <workItem from="1600783764055" duration="5412000" />
       <workItem from="1601388609385" duration="5238000" />
-      <workItem from="1601993277994" duration="2305000" />
+      <workItem from="1601993277994" duration="5557000" />
     </task>
     <servers />
   </component>
@@ -180,10 +182,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="990" y="227" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601392752004" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601994900525">
+    <state x="806" y="291" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601995961275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601994900525" />
+    <state x="806" y="291" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601995961275" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601998723011">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601998723011" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601392748555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -196,6 +202,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="539" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1600786901706" />
+    <state x="695" y="247" key="NewPhpClassDialog" timestamp="1601995939418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="695" y="247" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601995939418" />
     <state x="794" y="444" key="NewPhpFileDialog" timestamp="1601994774759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

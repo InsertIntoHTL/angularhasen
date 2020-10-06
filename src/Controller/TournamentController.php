@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\TournamentEntry1;
+use App\form\Type\TournamentType;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Response;
@@ -26,10 +27,14 @@ class TournamentController extends AbstractController
         ]);
     }
 
+
+
+
+
     /**
      * @Route("/tournament/create/{traveldistance}/{participantname}/{flightduration}/{paperplanemodel}", name="create_tournamentEntry")
      */
-    public function createTournamentEntry(float $traveldistance, string $participantname,float $flightduration,string $paperplanemodel): Response
+    public function createTournamentEntry(float $traveldistance, string $participantname, float $flightduration, string $paperplanemodel): Response
     {
         // you can fetch the EntityManager via $this->getDoctrine()
         // or you can add an argument to the action: createProduct(EntityManagerInterface $entityManager)
@@ -48,16 +53,6 @@ class TournamentController extends AbstractController
         $entityManager->flush();
 
 
-        return new Response('Saved new product with id '.$tournamentEntry->getId());
-    }
-
-    /**
-     * @Route("/tournament/show/{id}", name="product_show")
-     */
-    public function show(TournamentEntry1 $tournamentEntry1)
-    {
-
-        return new Response('Check out this great product: '.$tournamentEntry1->getTraveldistance());
-
+        return new Response('Saved new product with id ' . $tournamentEntry->getId());
     }
 }
