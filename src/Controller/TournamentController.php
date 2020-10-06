@@ -11,7 +11,7 @@ use Symfony\Component\Validator\Validator\ValidatorInterface;
 class TournamentController extends AbstractController
 {
     /**
-     * @Route("/results1", name="tournament")
+     * @Route("/results", name="tournament")
      */
     public function index()
     {
@@ -21,7 +21,7 @@ class TournamentController extends AbstractController
             array('traveldistance' => 'DESC')
         );
 
-        return $this->render('tournament/tournament.html.twig.html', [
+        return $this->render('tournament/tournament.html.twig', [
             'tournamententries' => $tournamentEntries,
         ]);
     }

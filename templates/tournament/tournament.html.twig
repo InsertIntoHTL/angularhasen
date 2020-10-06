@@ -8,8 +8,12 @@
         <th>Date</th>
     </tr>
     {% for entry in tournamententries %}
+
+
     <tr>
-        <td>{{ entry.id }}</td>
+        <td>
+            <a href="results/{{ entry.id }}">{{ entry.id }}</a>
+        </td>
         <td>{{ entry.participantName }}</td>
         <td>{{ entry.paperplaneModel }}</td>
         <td>{{ entry.flightduration }}</td>

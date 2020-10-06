@@ -1,0 +1,21 @@
+<a href="/results">Back</a>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Participant Name</th>
+        <th>Paperplane Model</th>
+        <th>Flight Duration</th>
+        <th>Travel Distance</th>
+        <th>Date</th>
+    </tr>
+    {% for entry in tournamentEntry %}
+        <tr>
+            <td>{{ entry.id }}</td>
+            <td>{{ entry.participantName }}</td>
+            <td>{{ entry.paperplaneModel }}</td>
+            <td>{{ entry.flightduration }}</td>
+            <td>{{ entry.traveldistance }}</td>
+            <td>{{ entry.date }}</td>
+        </tr>
+    {% endfor %}
+</table>
