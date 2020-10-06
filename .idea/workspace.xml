@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bd4515a-40f4-471c-a5bb-edbea005aa95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c86f438d-47fa-4664-9326-aa35cd20a184.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/TournamentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TournamentController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +165,8 @@
       <workItem from="1600181851339" duration="610000" />
       <workItem from="1600182471589" duration="1762000" />
       <workItem from="1600783764055" duration="5412000" />
-      <workItem from="1601388609385" duration="5209000" />
+      <workItem from="1601388609385" duration="5238000" />
+      <workItem from="1601993277994" duration="277000" />
     </task>
     <servers />
   </component>

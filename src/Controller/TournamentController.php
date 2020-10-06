@@ -11,7 +11,7 @@ use Symfony\Component\Validator\Validator\ValidatorInterface;
 class TournamentController extends AbstractController
 {
     /**
-     * @Route("/tournament", name="tournament")
+     * @Route("/results1", name="tournament")
      */
     public function index()
     {
