@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bd4515a-40f4-471c-a5bb-edbea005aa95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/FormController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/form/Type/TournamentType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/form/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/TournamentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TournamentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tournament/tournament.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tournament/tournament.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +140,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/var/data.db" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../websites/atlas-website" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -170,7 +165,8 @@
       <workItem from="1600182471589" duration="1762000" />
       <workItem from="1600783764055" duration="5412000" />
       <workItem from="1601388609385" duration="5238000" />
-      <workItem from="1601993277994" duration="5557000" />
+      <workItem from="1601993277994" duration="5726000" />
+      <workItem from="1602484891020" duration="36000" />
     </task>
     <servers />
   </component>
@@ -190,10 +186,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601998723011" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601392748555">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602484924001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601392748555" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602484924001" />
     <state x="831" y="422" width="514" height="223" key="Github.ShareDialog" timestamp="1601393755796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
