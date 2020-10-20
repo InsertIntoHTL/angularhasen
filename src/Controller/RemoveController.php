@@ -24,7 +24,5 @@ class RemoveController extends AbstractController
 
 
         return $this->redirectToRoute('tournament');
-
-
     }
 }
