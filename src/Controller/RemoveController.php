@@ -19,12 +19,11 @@ class RemoveController extends AbstractController
         );
 
         $entityManager = $this->getDoctrine()->getManager();
-        $entityManager->persist($entry[0]);
+        $entityManager->remove($entry[0]);
         $entityManager->flush();
 
 
-        return $this->render('remove/index.html.twig', [
-        ]);
+        return $this->redirectToRoute('tournament');
 
 
     }

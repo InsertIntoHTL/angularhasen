@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bd4515a-40f4-471c-a5bb-edbea005aa95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RemoveController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RemoveController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SayHelloController.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +143,7 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../websites/atlas-website" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -153,7 +158,10 @@
       <recent name="C:\xampp\htdocs\schule\WEBT\angularhasen\templates\tournament" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7bd4515a-40f4-471c-a5bb-edbea005aa95" name="Default Changelist" comment="" />
@@ -167,17 +175,23 @@
       <workItem from="1601388609385" duration="5238000" />
       <workItem from="1601993277994" duration="5726000" />
       <workItem from="1602484891020" duration="36000" />
+      <workItem from="1603203460520" duration="493000" />
+      <workItem from="1603203966583" duration="996000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="990" y="227" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601392752004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="990" y="227" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601392752004" />
+    <state x="725" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603204544934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="725" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603204544934" />
     <state x="806" y="291" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601995961275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
