@@ -15,7 +15,10 @@ class FormController extends AbstractController
      */
     public function index(Request $request)
     {
-
+        $pw = false;
+        if(isset($_GET['pw']) && $_GET['pw'] === 'haha') {
+            $pw=true;
+        }
         // creates a task object and initializes some data for this example
         $entry = new TournamentEntry1();
         $entry->setDate(new \DateTime());
@@ -36,6 +39,7 @@ class FormController extends AbstractController
 
         return $this->render('form/index.html.twig', [
             'form' => $form->createView(),
+            'pw' => $pw
         ]);
 
         // ...

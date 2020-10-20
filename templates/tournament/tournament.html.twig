@@ -1,4 +1,6 @@
-<a href="/form">Create New</a>
+{% if pw %}
+    <a href="/form?pw=haha">Create New</a>
+{% endif %}
 
 <table>
     <tr>
@@ -12,16 +14,18 @@
     {% for entry in tournamententries %}
 
 
-    <tr>
-        <td>
-            <a href="results/{{ entry.id }}">{{ entry.id }}</a>
-        </td>
-        <td>{{ entry.participantName }}</td>
-        <td>{{ entry.paperplaneModel }}</td>
-        <td>{{ entry.flightduration }}</td>
-        <td>{{ entry.traveldistance }}</td>
-        <td>{{ entry.date }}</td>
-        <td><a href="/remove/{{ entry.id }}">Remove</a></td>
-    </tr>
+        <tr>
+            <td>
+                <a href="results/{{ entry.id }}">{{ entry.id }}</a>
+            </td>
+            <td>{{ entry.participantName }}</td>
+            <td>{{ entry.paperplaneModel }}</td>
+            <td>{{ entry.flightduration }}</td>
+            <td>{{ entry.traveldistance }}</td>
+            <td>{{ entry.date }}</td>
+            {% if pw %}
+                <td><a href="/remove/{{ entry.id }}">Remove</a></td>
+            {% endif %}
+        </tr>
     {% endfor %}
 </table>

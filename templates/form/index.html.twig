@@ -1,1 +1,6 @@
-{{ form(form) }}
+{% if pw %}
+    {{ form(form) }}
+{% else %}
+    <h2>Log in with the right password!</h2>
+    <a href="/results">back</a>
+{% endif %}

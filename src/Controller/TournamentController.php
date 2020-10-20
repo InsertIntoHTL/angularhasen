@@ -16,6 +16,10 @@ class TournamentController extends AbstractController
      */
     public function index()
     {
+        $pw = false;
+        if(isset($_GET['pw']) && $_GET['pw'] === 'haha') {
+            $pw=true;
+        }
         $repository = $this->getDoctrine()->getRepository(TournamentEntry1::class);
         $tournamentEntries = $products = $repository->findBy(
             array(),
@@ -24,6 +28,7 @@ class TournamentController extends AbstractController
 
         return $this->render('tournament/tournament.html.twig', [
             'tournamententries' => $tournamentEntries,
+            'pw' => $pw
         ]);
     }
 
