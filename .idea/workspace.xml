@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bd4515a-40f4-471c-a5bb-edbea005aa95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/angularhasen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/angularhasen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e4bffb4e-141d-4d8a-b184-f6f24606e6a4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/RemoveController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RemoveController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/TournamentEntryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TournamentEntryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tournament/tournament.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tournament/tournament.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +134,8 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hYIyDbze9HEvgLp7TqxoszttDB" />
