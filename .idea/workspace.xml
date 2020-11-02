@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7bd4515a-40f4-471c-a5bb-edbea005aa95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/angularhasen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/angularhasen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e4bffb4e-141d-4d8a-b184-f6f24606e6a4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/form/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/tournament/tournament.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tournament/tournament.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tournament_entry/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tournament_entry/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,10 +180,22 @@
       <workItem from="1603203460520" duration="493000" />
       <workItem from="1603203966583" duration="3767000" />
     </task>
+    <task id="LOCAL-00001" summary="styling">
+      <created>1604331660413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604331660413</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="styling" />
   </component>
   <component name="WindowStateProjectService">
     <state x="990" y="227" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601392752004">
@@ -205,6 +215,10 @@
     </state>
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603207661779" />
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601998723011" />
+    <state x="583" y="1" key="CommitChangelistDialog2" timestamp="1604331659715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="583" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604331659715" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602484924001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -229,6 +243,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600785654257" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1604331666308">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604331666308" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601390429024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

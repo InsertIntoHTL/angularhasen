@@ -1,21 +1,62 @@
+<style>
+    * {
+        font-family: Quicksand, sans-serif;
+        font-weight: bolder
+    }
+
+    .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items:  center;
+    }
+
+    .table {
+        -webkit-box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.46);
+        -moz-box-shadow:    0px 3px 6px 0px rgba(50, 50, 50, 0.46);
+        box-shadow:         0px 3px 6px 0px rgba(50, 50, 50, 0.46);
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .table__tr {
+        background-color: #F3F3F3;
+    }
+
+    .table__tr--color {
+        background-color: #343434;
+        color: #ffffff;
+    }
+
+    .table__td {
+        padding: 10px;
+    }
+
+    .table__th {
+        padding: 10px;
+    }
+</style>
+
 <a href="/results">Back</a>
-<table>
-    <tr>
-        <th>ID</th>
-        <th>Participant Name</th>
-        <th>Paperplane Model</th>
-        <th>Flight Duration</th>
-        <th>Travel Distance</th>
-        <th>Date</th>
-    </tr>
-    {% for entry in tournamentEntry %}
-        <tr>
-            <td>{{ entry.id }}</td>
-            <td>{{ entry.participantName }}</td>
-            <td>{{ entry.paperplaneModel }}</td>
-            <td>{{ entry.flightduration }}</td>
-            <td>{{ entry.traveldistance }}</td>
-            <td>{{ entry.date }}</td>
+<div class="container">
+    <table class="table">
+        <tr class="table__tr--color">
+            <th class="table__th">ID</th>
+            <th class="table__th">Participant Name</th>
+            <th class="table__th">Paperplane Model</th>
+            <th class="table__th">Flight Duration</th>
+            <th class="table__th">Travel Distance</th>
+            <th class="table__th">Date</th>
         </tr>
-    {% endfor %}
-</table>
+        {% for entry in tournamentEntry %}
+            <tr class="table__tr">
+                <td class="table__td">{{ entry.id }}</td>
+                <td class="table__td">{{ entry.participantName }}</td>
+                <td class="table__td">{{ entry.paperplaneModel }}</td>
+                <td class="table__td">{{ entry.flightduration }}</td>
+                <td class="table__td">{{ entry.traveldistance }}</td>
+                <td class="table__td">{{ entry.date }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>

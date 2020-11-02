@@ -32,6 +32,14 @@
         padding: 10px;
     }
 
+    .table__td--red {
+        background-color: #B0413E;
+    }
+
+    .table__td__a {
+        color: #ffffff;
+    }
+
     .table__th {
         padding: 10px;
     }
@@ -64,7 +72,7 @@
                 <td class="table__td">{{ entry.traveldistance }}</td>
                 <td class="table__td">{{ entry.date }}</td>
                 {% if pw %}
-                    <td class="table__td"><a href="/remove/{{ entry.id }}">Remove</a></td>
+                    <td class="table__td table__td--red"><a class="table__td__a" href="/remove/{{ entry.id }}">Remove</a></td>
                 {% endif %}
             </tr>
         {% endfor %}
