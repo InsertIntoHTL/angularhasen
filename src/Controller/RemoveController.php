@@ -23,6 +23,6 @@ class RemoveController extends AbstractController
         $entityManager->flush();
 
 
-        return $this->redirectToRoute('tournament');
+        return $this->redirectToRoute('tournament', ['pw' => 'haha']);
     }
 }

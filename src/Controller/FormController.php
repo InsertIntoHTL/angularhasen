@@ -33,7 +33,7 @@ class FormController extends AbstractController
             $entityManager->persist($entry);
             $entityManager->flush();
 
-            return $this->redirectToRoute('tournament');
+            return $this->redirectToRoute('tournament', ['pw' => 'haha']);
         }
 
 
